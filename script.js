@@ -64,10 +64,14 @@ document.getElementById("ID").addEventListener("click", function() {
 
 document.getElementById("WA").addEventListener("click", function() {
   alert("Microsoft in Seatle est 1979");
+  playSound("Washington")
+  document.body.style.backgroundImage = "url('Backgrounds/seattle-riot.gif')";
 });
 
 document.getElementById("AZ").addEventListener("click", function() {
   alert("Why do you live here the coldest night in winter is literally 100F");
+  playSound("Arizona")
+  document.body.style.backgroundImage = "url('Backgrounds/arizona.gif')";
 });
 
 document.getElementById("CA").addEventListener("click", function() {
@@ -100,11 +104,14 @@ document.getElementById("OR").addEventListener("click", function() {
 
 document.getElementById("UT").addEventListener("click", function() {
   alert("Super Mormon stopping crimes in Salt Lake City since 1947");
+  playSound("Utah")
+  document.body.style.backgroundImage = "url('Backgrounds/dance-mormon.gif')";
 });
 
 document.getElementById("WY").addEventListener("click", function() {
   alert("Enjoy your 2 escalators");
-  document.body.style.backgroundImage = "url('Backgrounds/download.jpg')";
+  playSound("Wyoming")
+  document.body.style.backgroundImage = "url('Backgrounds/wyoming.gif')";
 });
 
 document.getElementById("AR").addEventListener("click", function() {
@@ -151,6 +158,7 @@ document.getElementById("TX").addEventListener("click", function() {
 
 document.getElementById("CT").addEventListener("click", function() {
   alert("Conneticut more like connecting flight on my way to be put on trial at the Hauge for my war crimes");
+  playSound("Connecticut")
 });
 
 document.getElementById("NH").addEventListener("click", function() {
@@ -245,6 +253,8 @@ document.getElementById("DE").addEventListener("click", function() {
 
 document.getElementById("DC").addEventListener("click", function() {
   alert("L+not a state");
+  playSound("Dc")
+  document.body.style.backgroundImage = "url('Backgrounds/biden.gif')";
 });
 
 document.getElementById("MD").addEventListener("click", function() {
@@ -276,4 +286,6 @@ document.getElementById("MI").addEventListener("click", function() {
 
 document.getElementById("AK").addEventListener("click", function() {
   alert("Nothing like the cold");
+  playSound("Alaska")
+  document.body.style.backgroundImage = "url('Backgrounds/alaska.gif')";
 });
