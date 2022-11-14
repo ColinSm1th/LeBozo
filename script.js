@@ -135,6 +135,8 @@ document.getElementById("OK").addEventListener("click", function() {
 
 document.getElementById("SD").addEventListener("click", function() {
   alert("Mount Rushmore and literally nothing else");
+  playSound("South Dakota")
+  document.body.style.backgroundImage = "url('Backgrounds/team-america.gif')";
 });
 
 document.getElementById("LA").addEventListener("click", function() {
@@ -144,6 +146,7 @@ document.getElementById("LA").addEventListener("click", function() {
 document.getElementById("TX").addEventListener("click", function() {
   alert("Yeeeeee haw cowboy🤠");
   playSound("Texas")
+  document.body.style.backgroundImage = "url('Backgrounds/cowboy.gif')";
 });
 
 document.getElementById("CT").addEventListener("click", function() {
@@ -191,10 +194,13 @@ document.getElementById("SC").addEventListener("click", function() {
 document.getElementById("IL").addEventListener("click", function() {
   alert("Michael Yordan");
   playSound("Illinois")
+  document.body.style.backgroundImage = "url('Backgrounds/23.gif')";
 });
 
 document.getElementById("IN").addEventListener("click", function() {
   alert("We need to remember what's important in life: Friends, waffles and work. Or waffles, friends, work. It doesn't matter. But work is third");
+  playSound("Indiana")
+  document.body.style.backgroundImage = "url('Backgrounds/computer-throw.gif')";
 });
 
 document.getElementById("KY").addEventListener("click", function() {
@@ -214,6 +220,8 @@ document.getElementById("OH").addEventListener("click", function() {
 
 document.getElementById("TN").addEventListener("click", function() {
   alert("Are you from Tennesse cause you're the only 10 I see");
+  playSound("Tennessee")
+  document.body.style.backgroundImage = "url('Backgrounds/NLE.gif')";
 });
 
 document.getElementById("VA").addEventListener("click", function() {
@@ -228,6 +236,7 @@ document.getElementById("WI").addEventListener("click", function() {
 
 document.getElementById("WV").addEventListener("click", function() {
   playSound("West Virginia")
+  document.body.style.backgroundImage = "url('Backgrounds/john-denver.gif')";
 });
 
 document.getElementById("DE").addEventListener("click", function() {
